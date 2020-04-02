@@ -1,50 +1,83 @@
-body {
-    background-color: #efeee7;
-    font-family: Georgia, "Times New Roman", Times, serif;
-    color: #333;
-    margin: 0;
+/* main background color */
+.my-blue {
+    background-color: rgb(161, 210, 235);
+}
+
+/* name display */
+.my-name {
+    position: relative;
+    font-family: "Lucida Console", monospace;
+}
+
+.emilia {
+    position: relative;
+    margin-bottom: 3.5rem;
+    background-color: rgb(151, 102, 28);
+    padding-top: 0.75rem;
+    padding-bottom: 1.25rem;
+    padding-left: 1rem;
+}
+
+.josefina {
+    position: relative;
+    margin-bottom: 3.5rem;
+    background-color:rgb(182, 129, 45);
+    padding-top: 0.75rem;
+    padding-bottom: 1.25rem;
+}
+
+.hartline {
+    position: relative;
+    background-color: rgb(218, 159, 70);
+    padding-top: 0.75rem;
+    padding-bottom: 1.25rem;
+    padding-right: 1.25rem;
+}
+
+.emi, .lia, .jose, .fina, .hart, .line {
+    margin: 0 !important;
+    margin-bottom: -0.7rem !important;
     padding: 0;
-    line-height: 1.5;
+    color: rgb(47, 37, 20) !important;
+    font-size: 3.5rem;
 }
 
-header {
-    background-color: #333333;
-    padding-top: 4px;
-    padding-bottom: 4px;
+/* navigation links */
+.projects-nav, .contact-nav {
+    position: absolute;
+    color: white !important;
 }
 
-h1 {
-    color: #eee;
-    font-size: 28px;
-    text-align: center;
+.projects-nav {
+    right: 0rem;
+    top: 6.58rem;
+    font-size: 4rem;
+    font-family: serif;
+    font-style: italic;
+    /* color:  rgb(110, 73, 16) !important; */
 }
 
-h2 {
-    font-size: 24px;
+.contact-nav {
+    top: 6.58rem;
+    font-size: 4rem;
+    font-family: serif;
+    font-style: italic;
+    /* color: rgb(172, 121, 40) !important; */
 }
 
-.container {
-    width: 1024px;
-    margin: 0px auto;
+.middle-helper {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    height: 0;
 }
 
-#bio-image {
-    width: 200px;
-    float: left;
-    margin-right: 10px;
-    padding-right: 10px;
-}
-
-#main-bio {
-    width: 70%;
-    float: left;
-}
-
-#contact-info {
-    width: 30%;
-    float: left;
-}
-
-a {
-    color: #d21034;
+.about-nav {
+    position: relative;
+    color: white !important;
+    /* color:  rgb(144, 98, 29) !important; */
+    top: -5.35rem;
+    font-size: 4rem;
+    font-family: serif;
+    font-style: italic;
 }
