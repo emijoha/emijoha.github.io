@@ -50,19 +50,19 @@
 
 .projects-nav {
     right: 0rem;
-    top: 6.58rem;
+    top: 6.645rem;
     font-size: 4rem;
     font-family: serif;
     font-style: italic;
-    /* color:  rgb(110, 73, 16) !important; */
+    cursor: pointer;
 }
 
 .contact-nav {
-    top: 6.58rem;
+    top: 6.645rem;
     font-size: 4rem;
     font-family: serif;
     font-style: italic;
-    /* color: rgb(172, 121, 40) !important; */
+    cursor: pointer;
 }
 
 .middle-helper {
@@ -75,9 +75,36 @@
 .about-nav {
     position: relative;
     color: white !important;
-    /* color:  rgb(144, 98, 29) !important; */
-    top: -5.35rem;
+    top: -5.3rem;
     font-size: 4rem;
     font-family: serif;
     font-style: italic;
+    cursor: pointer;
+}
+
+/* nav content rendered on click */
+.project-content {
+    background-color: white;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    padding: 1rem;
+}
+
+.about-content {
+    background-color: white;
+    margin-top: 0;
+    margin-bottom: 3rem;
+    padding: 1rem;
+}
+
+.contact-content {
+    background-color: white;
+    margin-top: 3.505rem;
+    margin-bottom: 3rem;
+    padding: 1rem;
+}
+
+/* hidden class */
+. {
+    display: none;
 }

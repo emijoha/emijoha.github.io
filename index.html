@@ -16,22 +16,42 @@
     <section class="hero is-fullheight">
         <div class="hero-body my-blue my-name">
             <div class="container">
-                <div class="emilia has-text-left" id="about">
+                <!-- emilia name and project nav -->
+                <div class="emilia has-text-left">
                     <p class="title emi">EMI</p>
                     <p class="title lia">LIA</p>
-                    <p class="title projects-nav">projects</p>
+                    <p class="title projects-nav" id="projects">projects</p>
                 </div>
-                <div class="josefina has-text-centered" id="projects">
+
+                <!-- where project content renders on click -->
+                <div class="project-content is-hidden" id="projectContent">
+                   
+                </div>
+
+                <!-- josefina name and about nav -->
+                <div class="josefina has-text-centered">
                     <p class="title jose">JOSE</p>
                     <p class="title fina">FINA</p>
                 </div>
                 <div class="has-text-centered middle-helper">
-                    <p class="title about-nav">about</p>
+                    <p class="title about-nav" id="about">about</p>
                 </div>
-                <div class="hartline has-text-right" id="contact">
+
+                <!-- where about content renders on click -->
+                <div class="about-content is-hidden" id="aboutContent">
+
+                </div>
+
+                <!-- hartline name and contact nav -->
+                <div class="hartline has-text-right">
                     <p class="title hart">HART</p>
                     <p class="title line">LINE</p>
-                    <p class="title contact-nav">contact</p>
+                    <p class="title contact-nav" id="contact">contact</p>
+                </div>
+
+                <!-- where contact content renders on click -->
+                <div class="contact-content is-hidden" id="contactContent">
+
                 </div>
             </div>
         </div>
