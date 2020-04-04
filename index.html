@@ -69,7 +69,7 @@
                 </div>
 
                 <!-- where about content renders on click -->
-                <div class="about-content is-hidden" id="aboutContent"> 
+                <div class="about-content is-hidden" id="aboutContent">
                     <div class="columns is-multiline is-mobile">
                         <div class="column is-12 prof-pic">
                             <figure class="image">
@@ -88,7 +88,56 @@
 
                 <!-- where contact content renders on click -->
                 <div class="contact-content is-hidden" id="contactContent">
+                    <div class="field">
+                        <label class="label labels l1">NAME</label>
+                        <div class="control">
+                            <input class="input my-input" type="text" placeholder="First and Last Name">
+                        </div>
+                    </div>
 
+                    <div class="field">
+                        <label class="label labels l2">EMAIL</label>
+                        <div class="control has-icons-left has-icons-right">
+                            <input class="input my-input" type="email" placeholder="Email input">
+                            <span class="icon is-small is-left">
+                                <i class="fas fa-envelope my-i"></i>
+                            </span>
+                            <span class="icon is-small is-right">
+                                <i class="fas fa-exclamation-triangle my-i"></i>
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="field">
+                        <label class="label labels l3">SUBJECT</label>
+                        <div class="control">
+                            <div class="select">
+                                <select class="my-input">
+                                    <option>Leaving a comment</option>
+                                    <option>Asking a question</option>
+                                    <option>Sharing a concern</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="field">
+                        <label class="label labels l4">MESSAGE</label>
+                        <div class="control">
+                            <textarea class="textarea my-input" placeholder="Type your message..."></textarea>
+                        </div>
+                    </div>
+
+                    <br>
+
+                    <div class="field is-grouped">
+                        <div class="control">
+                            <button class="button is-link is-large button-text submit-btn">submit</button>
+                        </div>
+                        <div class="control">
+                            <button class="button is-link is-light is-large button-text cancel-btn">cancel</button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
