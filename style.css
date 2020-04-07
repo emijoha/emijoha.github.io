@@ -106,7 +106,7 @@
 
 /* contact form */
 .labels {
-    font-size: 1.rem;
+    font-size: 1rem;
 }
 
 .button-text {
@@ -114,19 +114,19 @@
     font-style: italic;
     font-weight: bold;
     color: white !important;
-    font-size: 1.75rem !important;
+    font-size: 1.25rem !important;
 }
 
 .submit-btn {
     background-color:  rgb(218, 159, 70) !important;
     border-radius: 50%;
-    height: 8rem !important;
+    height: 6rem !important;
 }
 
 .cancel-btn {
     background-color:  rgb(151, 102, 28) !important;
     border-radius: 50%;
-    height: 8rem !important;
+    height: 6rem !important;
 }
 
 .my-input {
