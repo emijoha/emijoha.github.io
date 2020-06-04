@@ -3,6 +3,21 @@
     background-color: rgb(161, 210, 235);
 }
 
+.my-brown {
+    color: rgb(151, 102, 28);
+    fill: rgb(151, 102, 28);
+}
+
+.my-camel {
+    color:rgb(182, 129, 45);
+    fill:rgb(182, 129, 45);
+}
+
+.my-mustard {
+    color: rgb(218, 159, 70);
+    fill: rgb(218, 159, 70);
+}
+
 /* name display */
 .my-name {
     position: relative;
@@ -83,12 +98,11 @@
 }
 
 /* nav content rendered on click */
-.project-content {
-    /* background-color: white; */
-    margin-top: 3rem;
-    margin-bottom: 3.5rem;
-    padding: 1rem;
+.project-content, .contact-content {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
     position: relative;
+    cursor: pointer;
 }
 
 .about-content {
@@ -97,15 +111,8 @@
     padding: 1rem;
 }
 
-.contact-content {
-    margin-top: 3.505rem;
-    margin-bottom: 3.5rem;
-    padding: 1rem;
-    width: 100%;
-}
-
 /* contact form */
-.labels {
+/* .labels {
     font-size: 1rem;
 }
 
@@ -136,4 +143,17 @@
 
 .my-i {
     color: black !important;
+} */
+
+#hamburger {
+    position: absolute;
+    top: 1rem;
+    right: 1.25rem;
+    height: fit-content;
+    width: fit-content;
+    z-index: 1;
+}
+
+#hamburger:hover {
+    cursor: pointer;
 }

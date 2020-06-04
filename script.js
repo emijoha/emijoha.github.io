@@ -10,16 +10,20 @@ var projDashboard = $("#weatherDash");
 var projPlanner = $("#workPlanner");
 var projQuiz = $("#codeQuiz");
 var projPassGen = $("#passGen");
-var gitHub = $("#gitHub");
+var projHikeHire = $("#hikeHire");
+var github = $("#github");
+var email = $("#email");
+var linkedin = $("#linkedin");
+var hamburger = $("#hamburger");
+
+// hamburger
+hamburger.click( function () {
+    window.location.href = "index.html"
+});
 
 // Events for projects nav
 projectsBtn.click( function () {
-    if (projectContent.hasClass("is-hidden")) {
-        projectContent.removeClass("is-hidden");
-    }
-    else {
-        projectContent.addClass("is-hidden");
-    }
+    window.location.href = "projects.html"
 });
 
 projTrales.mouseenter( function () {
@@ -62,30 +66,34 @@ projPassGen.mouseenter( function () {
     window.open("https://emijoha.github.io/Password-Generator/", "_blank");
 });
 
-gitHub.mouseenter( function () {
-    gitHub.attr("src", "images/github.svg");
+projHikeHire.mouseenter( function () {
+    projHikeHire.attr("src", "images/hikehireimg.svg");
 }).mouseleave( function () {
-    gitHub.attr("src", "images/git.svg");
+    projHikeHire.attr("src", "images/hikehire.svg");
 }).click( function () {
-    window.open("https://github.com/emijoha", "_blank");
+    window.open("https://shrouded-anchorage-20263.herokuapp.com/", "_blank");
 });
 
 // Events for about nav
 aboutBtn.click( function () {
-    if (aboutContent.hasClass("is-hidden")) {
-        aboutContent.removeClass("is-hidden");
-    }
-    else {
-        aboutContent.addClass("is-hidden");
-    }
+    window.location.href = "about.html"
 });
 
 // Events for contact nav
 contactBtn.click( function () {
-    if (contactContent.hasClass("is-hidden")) {
-        contactContent.removeClass("is-hidden");
-    }
-    else {
-        contactContent.addClass("is-hidden");
-    }
+    window.location.href = "contact.html"
+});
+
+github.click( function() {
+    window.open("https://github.com/emijoha", "_blank");
+});
+
+email.click( function() {
+    email.attr("src", "images/emailaddress.svg");
+}).mouseleave( function () {
+    email.attr("src", "images/email.svg");
+})
+
+linkedin.click( function() {
+    window.open("https://www.linkedin.com/in/emilia-josefina-hartline-a14ab21a0/", "_blank");
 });
