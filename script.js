@@ -9,7 +9,7 @@ var projTrales = $("#tralesAles");
 var projDashboard = $("#weatherDash");
 var projPlanner = $("#workPlanner");
 var projQuiz = $("#codeQuiz");
-var projPassGen = $("#passGen");
+var projWhatsGood = $("#whatsGood");
 var projHikeHire = $("#hikeHire");
 var github = $("#github");
 var email = $("#email");
@@ -58,12 +58,12 @@ projQuiz.mouseenter( function () {
     window.open("https://emijoha.github.io/Code-Quiz/", "_blank");
 });
 
-projPassGen.mouseenter( function () {
-    projPassGen.attr("src", "images/password.svg");
+projWhatsGood.mouseenter( function () {
+    projWhatsGood.attr("src", "images/whatsgoodimg.svg");
 }).mouseleave( function () {
-    projPassGen.attr("src", "images/pass.svg");
+    projWhatsGood.attr("src", "images/whatsgood.svg");
 }).click( function () {
-    window.open("https://emijoha.github.io/Password-Generator/", "_blank");
+    window.open("https://whatsgood-v1.herokuapp.com/", "_blank");
 });
 
 projHikeHire.mouseenter( function () {
