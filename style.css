@@ -49,6 +49,10 @@
     padding-right: 1rem;
 }
 
+.serif {
+    font-family: serif;
+}
+
 .emi, .lia, .jose, .fina, .hart, .line {
     margin: 0 !important;
     margin-bottom: -1rem !important;
