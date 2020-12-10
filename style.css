@@ -115,6 +115,8 @@
     padding: 1rem;
 }
 
+
+
 /* contact form */
 /* .labels {
     font-size: 1rem;
@@ -160,4 +162,17 @@
 
 #hamburger:hover {
     cursor: pointer;
+}
+
+.about-text {
+  justify-self: center;
+  align-self: center;
+}
+
+.pic-wrap {
+    text-align: center;
+}
+
+.project-shots {
+    text-align: center;
 }

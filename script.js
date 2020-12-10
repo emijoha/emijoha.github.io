@@ -31,7 +31,8 @@ projTrales.mouseenter( function () {
 }).mouseleave( function () {
     projTrales.attr("src", "images/trales.svg");
 }).click( function () {
-    window.open("https://emijoha.github.io/Ales-and-Trales/", "_blank");
+    window.location.href = "trales-and-ales.html";
+    // window.open("https://emijoha.github.io/Ales-and-Trales/", "_blank");
 });
 
 projDashboard.mouseenter( function () {
@@ -39,7 +40,7 @@ projDashboard.mouseenter( function () {
 }).mouseleave( function () {
     projDashboard.attr("src", "images/dash.svg");
 }).click( function () {
-    window.open("https://emijoha.github.io/Weather-Dashboard/", "_blank");
+    // window.open("https://emijoha.github.io/Weather-Dashboard/", "_blank");
 });
 
 projPlanner.mouseenter( function () {
@@ -47,7 +48,7 @@ projPlanner.mouseenter( function () {
 }).mouseleave( function () {
     projPlanner.attr("src", "images/plan.svg");
 }).click( function () {
-    window.open("https://emijoha.github.io/Daily-Planner/", "_blank");
+    // window.open("https://emijoha.github.io/Daily-Planner/", "_blank");
 });
 
 projQuiz.mouseenter( function () {
@@ -55,7 +56,7 @@ projQuiz.mouseenter( function () {
 }).mouseleave( function () {
     projQuiz.attr("src", "images/code.svg");
 }).click( function () {
-    window.open("https://emijoha.github.io/Code-Quiz/", "_blank");
+    // window.open("https://emijoha.github.io/Code-Quiz/", "_blank");
 });
 
 projWhatsGood.mouseenter( function () {
@@ -63,7 +64,7 @@ projWhatsGood.mouseenter( function () {
 }).mouseleave( function () {
     projWhatsGood.attr("src", "images/whatsgood.svg");
 }).click( function () {
-    window.open("https://whatsgood-v1.herokuapp.com/", "_blank");
+    // window.open("https://whatsgood-v1.herokuapp.com/", "_blank");
 });
 
 projHikeHire.mouseenter( function () {
@@ -71,7 +72,7 @@ projHikeHire.mouseenter( function () {
 }).mouseleave( function () {
     projHikeHire.attr("src", "images/hikehire.svg");
 }).click( function () {
-    window.open("https://shrouded-anchorage-20263.herokuapp.com/", "_blank");
+    // window.open("https://shrouded-anchorage-20263.herokuapp.com/", "_blank");
 });
 
 // Events for about nav
@@ -97,3 +98,8 @@ email.click( function() {
 linkedin.click( function() {
     window.open("https://www.linkedin.com/in/emilia-josefina-hartline-a14ab21a0/", "_blank");
 });
+
+// Splide slider
+document.addEventListener( 'DOMContentLoaded', function () {
+    new Splide( '.splide' ).mount();
+} );
