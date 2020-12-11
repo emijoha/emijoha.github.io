@@ -11,6 +11,7 @@ var projPlanner = $("#workPlanner");
 var projQuiz = $("#codeQuiz");
 var projWhatsGood = $("#whatsGood");
 var projHikeHire = $("#hikeHire");
+var projBurger = $("#projBurger");
 var github = $("#github");
 var email = $("#email");
 var linkedin = $("#linkedin");
@@ -32,7 +33,6 @@ projTrales.mouseenter( function () {
     projTrales.attr("src", "images/trales.svg");
 }).click( function () {
     window.location.href = "trales-and-ales.html";
-    // window.open("https://emijoha.github.io/Ales-and-Trales/", "_blank");
 });
 
 projDashboard.mouseenter( function () {
@@ -40,7 +40,7 @@ projDashboard.mouseenter( function () {
 }).mouseleave( function () {
     projDashboard.attr("src", "images/dash.svg");
 }).click( function () {
-    // window.open("https://emijoha.github.io/Weather-Dashboard/", "_blank");
+    window.location.href = "weather-dashboard.html";
 });
 
 projPlanner.mouseenter( function () {
@@ -48,7 +48,7 @@ projPlanner.mouseenter( function () {
 }).mouseleave( function () {
     projPlanner.attr("src", "images/plan.svg");
 }).click( function () {
-    // window.open("https://emijoha.github.io/Daily-Planner/", "_blank");
+    window.location.href = "workday-planner.html";
 });
 
 projQuiz.mouseenter( function () {
@@ -56,7 +56,7 @@ projQuiz.mouseenter( function () {
 }).mouseleave( function () {
     projQuiz.attr("src", "images/code.svg");
 }).click( function () {
-    // window.open("https://emijoha.github.io/Code-Quiz/", "_blank");
+    window.location.href = "code-quiz.html";
 });
 
 projWhatsGood.mouseenter( function () {
@@ -64,7 +64,7 @@ projWhatsGood.mouseenter( function () {
 }).mouseleave( function () {
     projWhatsGood.attr("src", "images/whatsgood.svg");
 }).click( function () {
-    // window.open("https://whatsgood-v1.herokuapp.com/", "_blank");
+    window.location.href = "whats-good.html";
 });
 
 projHikeHire.mouseenter( function () {
@@ -72,7 +72,15 @@ projHikeHire.mouseenter( function () {
 }).mouseleave( function () {
     projHikeHire.attr("src", "images/hikehire.svg");
 }).click( function () {
-    // window.open("https://shrouded-anchorage-20263.herokuapp.com/", "_blank");
+    window.location.href = "hike-hire.html";
+});
+
+projBurger.mouseenter( function () {
+    projBurger.attr("src", "images/burgerimg.svg");
+}).mouseleave( function () {
+    projBurger.attr("src", "images/burger.svg");
+}).click( function () {
+    window.location.href = "burgers-digest.html";
 });
 
 // Events for about nav
