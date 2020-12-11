@@ -11,7 +11,7 @@ var projPlanner = $("#workPlanner");
 var projQuiz = $("#codeQuiz");
 var projWhatsGood = $("#whatsGood");
 var projHikeHire = $("#hikeHire");
-var projBurger = $("#projBurger");
+var projBurger = $("#burgersDigest");
 var github = $("#github");
 var email = $("#email");
 var linkedin = $("#linkedin");
@@ -76,9 +76,9 @@ projHikeHire.mouseenter( function () {
 });
 
 projBurger.mouseenter( function () {
-    projBurger.attr("src", "images/burgerimg.svg");
+    projBurger.attr("src", "images/burgersimg.svg");
 }).mouseleave( function () {
-    projBurger.attr("src", "images/burger.svg");
+    projBurger.attr("src", "images/burgers.svg");
 }).click( function () {
     window.location.href = "burgers-digest.html";
 });
